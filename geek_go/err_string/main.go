@@ -26,7 +26,6 @@ func main() {
 	if ErrStructType == errors.New("EOF") {
 		fmt.Println("Struct Type Err")
 	}
-	fmt.Errorf()
 }
 
 //type errorString struct {
